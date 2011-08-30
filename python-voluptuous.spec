@@ -13,6 +13,7 @@ Group:		Development/Python
 Url:		http://github.com/alecthomas/voluptuous/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
+BuildRequires:	python-devel
 
 %description
 Voluptuous, despite the name, is a Python data validation library. It
