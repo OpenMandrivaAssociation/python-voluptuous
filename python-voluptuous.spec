@@ -1,7 +1,7 @@
 %define module	voluptuous
 %define name	python-%{module}
 %define version	0.3.3
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	Python data validation library
 Name:		%{name}
@@ -30,6 +30,9 @@ YAML, etc. It has three goals:
 %install
 %__rm -rf %{buildroot}
 PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot} --record=FILE_LIST
+chmod 644 *.rst
+find %{buildroot} -type d -exec chmod 755 {} \;
+find %{buildroot} -type f -exec chmod 644 {} \;
 
 %clean
 %__rm -rf %{buildroot}
