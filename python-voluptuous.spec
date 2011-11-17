@@ -1,7 +1,7 @@
 %define module	voluptuous
 %define name	python-%{module}
-%define version	0.3.3
-%define release %mkrel 2
+%define version	0.4
+%define release %mkrel 1
 
 Summary:	Python data validation library
 Name:		%{name}
