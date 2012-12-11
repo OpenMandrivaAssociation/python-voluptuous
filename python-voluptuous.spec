@@ -40,3 +40,18 @@ find %{buildroot} -type f -exec chmod 644 {} \;
 %files -f FILE_LIST
 %defattr(-,root,root)
 %doc README.rst tests.rst
+
+
+%changelog
+* Thu Nov 17 2011 Lev Givon <lev@mandriva.org> 0.4-1mdv2011.0
++ Revision: 731410
+- Update to 0.4.
+
+* Mon Sep 05 2011 Lev Givon <lev@mandriva.org> 0.3.3-2
++ Revision: 698373
+- Fix permissions.
+
+* Tue Aug 30 2011 Lev Givon <lev@mandriva.org> 0.3.3-1
++ Revision: 697507
+- import python-voluptuous
+
