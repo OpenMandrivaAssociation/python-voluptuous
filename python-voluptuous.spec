@@ -7,7 +7,7 @@ Release:	1
 Source0:	https://github.com/alecthomas/voluptuous/archive/%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
-Url:		http://github.com/alecthomas/voluptuous/
+Url:		https://github.com/alecthomas/voluptuous/
 BuildArch:	noarch
 BuildRequires:	python-devel
 
