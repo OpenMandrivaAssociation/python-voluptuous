@@ -3,7 +3,7 @@
 Summary:	Python data validation library
 Name:		python-%{module}
 Version:	0.15.2
-Release:	1
+Release:	2
 Source0:	https://github.com/alecthomas/voluptuous/archive/%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
