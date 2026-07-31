@@ -2,8 +2,8 @@
 
 Summary:	Python data validation library
 Name:		python-%{module}
-Version:	0.15.2
-Release:	2
+Version:	0.16.0
+Release:	1
 Source0:	https://github.com/alecthomas/voluptuous/archive/%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
@@ -21,7 +21,7 @@ YAML, etc. It has three goals:
 3. Provide useful error messages.
 
 %prep
-%setup -q -n %{module}-%{version}
+%setup -q -n voluptuous-0.16.0
 
 %install
 %__rm -rf %{buildroot}
